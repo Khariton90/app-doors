@@ -1,0 +1,57 @@
+.entry-form {
+margin: 70px 0 0 0;
+padding: 50px 0;
+background: url('../../../public/images/bg-form.jpg') center no-repeat;
+background-size: 100%;
+position: relative;
+
+& .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-left: auto;
+  max-width: 1250px;
+}
+
+  & fieldset {
+    border: none;
+    display: flex;
+    & label {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+
+      & input {
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        height: 40px;
+        background-color: #F1F6F9;
+      }
+
+      & textarea {
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        resize: none;
+        background-color: #F1F6F9;
+      }
+
+      & select {
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        height: 40px;
+        background-color: #F1F6F9;
+      }
+    }
+  }
+}
+
+.confetty-wrap {
+  top: 0;
+  height: 90%;
+  width: 100%;
+  & canvas {
+    height: inherit;
+    width: inherit;
+  }
+}

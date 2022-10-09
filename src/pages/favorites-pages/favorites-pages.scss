@@ -1,0 +1,75 @@
+@import './../../variables';
+
+.favorites-page {
+  margin-top: 50px;
+  padding-top: 60px;
+
+  & h1 {
+    text-align: center;
+    padding-bottom: 33px;
+  }
+
+  & h2 {
+    text-align: center;
+  }
+}
+
+.favorites-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 100px;
+  margin-bottom: 100px;
+
+  & h2 {
+    text-align: center;
+  }
+}
+
+.favorites-cards__card {
+  width: 350px;
+  height: 350px;
+
+  & .card__content {
+    width: 100%;
+    height: 100%;
+    background: #F1F6F9;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 10px;
+
+    & img {
+      max-height: 250px;
+    }
+
+    & figcaption {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+
+  & .card-btn {
+    width: 38px;
+    height: 38px;
+    background-color: #71B3C6;
+  }
+}
+
+.card__edit-btn {
+  background: url(./../../../public/images/edit-icon.svg) no-repeat center;
+}
+
+.card__price {
+  margin-top: 15px;
+  & p {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+}

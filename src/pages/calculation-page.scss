@@ -1,0 +1,46 @@
+@import '../variables';
+
+.total {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: $bg-color;
+  padding: 32px;
+  & {
+    .table {
+      width: 100%;
+      margin-top: 20px;
+      border: 1px solid #dddddd;
+      border-collapse: collapse; 
+    }
+    .table th {
+      font-weight: bold;
+      padding: 5px;
+      background: #efefef;
+      border: 1px solid #dddddd;
+    }
+    .table td {
+      border: 1px solid #dddddd;
+      padding: 5px;
+    }
+  }
+}
+
+.total__list {
+  display: flex;
+  width: 100%;
+}
+
+.calc-door__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.calc-door {
+  flex: 0.33;
+  margin-right: 50px;
+}
+
+.total__parameters {
+  flex: 1;
+}

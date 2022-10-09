@@ -1,0 +1,58 @@
+@import './../../variables';
+
+.offer-result {
+  float: right;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0 10px;
+  & p {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 500;
+    &:last-child {
+      border-top: 1px solid #9D9D9D;
+    }
+  }
+
+  & span {
+    font-weight: 700;
+  }
+}
+
+.offer-result-buttons{
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+  padding-top: 20px;
+}
+
+.offer-btn {
+  width: 170px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-btn {
+  position: relative;
+  &::before {
+    content: '+';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+    font-size: 30px;
+  }
+}
+
+.arrange-btn {
+  height: 40px;
+  padding: 10px;
+  background-color: $color-yellow;
+}

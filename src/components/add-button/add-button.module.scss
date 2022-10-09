@@ -1,0 +1,25 @@
+.button {
+  clear: both;
+  display: block;
+  margin: 40px auto;
+  max-width: 200px;
+  background: none;
+  border: none;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+  &::before {
+    content: '+';
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -23px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,67 @@
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin transition-ease {
+  transition: all 0.1s ease;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  margin-top: 150px;
+  & fieldset {
+    border: none;
+    padding: 0;
+  }
+
+  & input {
+    background: #F8F8F8;
+    border: 1px solid #9D9D9D;
+    border-radius: 2px;
+  }
+}
+
+.searchField {
+  @include flex-column();
+  flex: 0.7;
+  & input {
+    height: 38px;
+  }
+
+  & span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9D9D9D;
+  }
+}
+
+.doorParameters {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+  & label {
+    @include flex-column();
+  }
+
+  & input {
+    width: 90px;
+    height: 38px;
+  }
+
+  & span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.doorTypesField {
+  & :first-child  {
+      margin-right: 5px;
+  }
+}

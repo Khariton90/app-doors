@@ -1,0 +1,59 @@
+@import '../../variables';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+  z-index: 100;
+  box-shadow: 0px 1px 1px #ccc;
+  padding: 20px 10px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  & a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  & span {
+    cursor: pointer;
+  }
+}
+
+.header__sign-in {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('./../../../public/images/avatar.svg') no-repeat center;
+}
+
+.header__sign-out {
+  background-color: $color-yellow;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 50%;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.login-avatar {
+  margin-right: 10px;
+}
