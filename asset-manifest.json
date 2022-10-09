@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.55292e87.css",
-    "main.js": "/static/js/main.70fbe616.js",
-    "static/media/bg-form.jpg": "/static/media/bg-form.b737c7105b3ef0216f7f.jpg",
-    "static/media/edit-icon.svg": "/static/media/edit-icon.55e92d5cf5436dc24426.svg",
-    "index.html": "/index.html",
-    "static/media/avatar.svg": "/static/media/avatar.ab936ce8e958edf46e83.svg",
-    "main.55292e87.css.map": "/static/css/main.55292e87.css.map",
-    "main.70fbe616.js.map": "/static/js/main.70fbe616.js.map"
+    "main.css": "/app-doors/static/css/main.c86e56ba.css",
+    "main.js": "/app-doors/static/js/main.70fbe616.js",
+    "static/media/bg-form.jpg": "/app-doors/static/media/bg-form.b737c7105b3ef0216f7f.jpg",
+    "static/media/edit-icon.svg": "/app-doors/static/media/edit-icon.55e92d5cf5436dc24426.svg",
+    "index.html": "/app-doors/index.html",
+    "static/media/avatar.svg": "/app-doors/static/media/avatar.ab936ce8e958edf46e83.svg",
+    "main.c86e56ba.css.map": "/app-doors/static/css/main.c86e56ba.css.map",
+    "main.70fbe616.js.map": "/app-doors/static/js/main.70fbe616.js.map"
   },
   "entrypoints": [
-    "static/css/main.55292e87.css",
+    "static/css/main.c86e56ba.css",
     "static/js/main.70fbe616.js"
   ]
 }
